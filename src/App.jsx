@@ -47,9 +47,9 @@ function App() {
         {/* Services page route */}
         <Route path="/services" element={<ServicesPage />} />
 
-        <Route path="/blog1" element={<BlogMain/>} />
-        <Route path="/blog2" element={<BlogMain2/>} />
-        <Route path="/blog3" element={<BlogMain3/>} />
+        <Route path="/casestudy1" element={<BlogMain/>} />
+        <Route path="/casestudy2" element={<BlogMain2/>} />
+        <Route path="/casestudy3" element={<BlogMain3/>} />
 
 
       </Routes>

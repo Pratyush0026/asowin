@@ -10,7 +10,7 @@ const BlogAbout = () => {
           ABOUT
         </h2>
         <p className="text-[#858285] lg:max-w-[400px] text-base font-medium md:text-[18px] leading-loose">
-          Pepperfry, is an Indian online marketplace for furniture and home décor. The company was founded in July 2011 by Ambareesh Murty and Ashish Shah, and is headquartered in Mumbai As of 2023, Pepperfry has 43 company-owned studios and 142 studios operating under its franchise model.
+        Among India's top leading online marketplace for furniture and home decor is Pepperfry. Founded in July, 2011, the company is headquartered in Mumbai. As of 2023, Pepperfry has 43 company-owned studios and 142 studios operating under its franchise model across country.
         </p>
 
         {/* ASOWin Card */}

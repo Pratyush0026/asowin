@@ -8,7 +8,7 @@ const AboutHero = () => {
   return (
     <>
       <div
-        className="w-full mb-[100px]  bg-[#EEF6FF]"
+        className="w-full mb-[50px]  bg-[#EEF6FF]"
         style={{
           backgroundImage: `url(${img1})`,
           backgroundSize: "cover",

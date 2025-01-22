@@ -258,15 +258,14 @@ const ASOSection = () => {
                   <div>
                     <h3 className="text-[24px] font-medium text-gray-900 mb-2">What We Do:</h3>
                     <p className="text-[14px] text-gray-700">
-                    We create visually compelling app store creatives and conduct A/B testing to identify designs that maximize click-through rates and drive more downloads.
+                    Conduct thorough A/B testing to identify designs <br /> generating max CTR and drive downloads. 
                     </p>
                   </div>
                   
                   <div>
                     <h3 className="text-[24px] font-medium text-gray-900 mb-2">Why It Matters:</h3>
                     <p className="text-[14px] text-gray-700">
-                    Optimized creatives significantly enhance app visibility, attract user attention, and boost conversions, ultimately driving higher downloads and revenue.
-
+                    Enhances your app visibility, boosts user retention, and <br /> significantly drives download rate and revenue.
                     </p>
                   </div>
                 </div>
