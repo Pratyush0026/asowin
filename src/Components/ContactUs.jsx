@@ -1,13 +1,13 @@
-// import React from "react";
-// import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
-// import Navbar from "./Navbar";
-// import img1 from "../assets/contactbg.png";
+import React from "react";
+import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import Navbar from "./Navbar";
+import img1 from "../assets/contactbg.png";
 
-// const ContactUs = () => {
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     // Add your form submission logic here
-//   };
+const ContactUs = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Add your form submission logic here
+  };
 
   return (
     <>
