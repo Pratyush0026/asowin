@@ -352,7 +352,7 @@ const Services = () => {
           </div>
 
           {/* Right Content - Phone Image */}
-          <div className="w-full md:w-[40%] md:min-h-[480px] md:mt-[-40px] md:h-full flex justify-center md:justify-end">
+          <div className="w-full md:w-[40%] md:min-h-[505px] md:mt-[-40px] md:h-full flex justify-center md:justify-end">
             <img
               src={img1}
               alt="Phone with bubbles"

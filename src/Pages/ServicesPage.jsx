@@ -7,6 +7,7 @@ import PricingSection from '../Components/PricingSection'
 import Quality from '../Components/Quality'
 import WhyAso from '../Components/WhyAso'
 import ASOSection3 from '../Components/ASOSection3'
+import Footer from '../Components/Footer'
 
 
 
@@ -29,6 +30,7 @@ const ServicesPage = () => {
   <PricingSection/>
   <Quality/>
   <WhyAso/>
+  <Footer/>
 
 
   </div>
