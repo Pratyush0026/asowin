@@ -220,7 +220,7 @@ import img1 from '../assets/asosection.png';
 
 const ASOSection = () => {
   return (
-    <section className="relative w-full min-h-[400px] sm:min-h-[500px] lg:min-h-[600px] bg-[#FAFAFA] mb-[100px]">
+    <section className="relative w-full min-h-[400px] sm:min-h-[500px] lg:min-h-[600px] bg-[#FAFAFA] mb-[50px]">
       {/* Background image */}
       <div 
         className="absolute inset-0 w-full h-full"

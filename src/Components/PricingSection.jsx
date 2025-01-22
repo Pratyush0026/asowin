@@ -4,7 +4,7 @@ import img1 from '../assets/pricing.png'
 const PricingSection = () => {
   return (
     <div 
-      className="w-full min-h-screen py-20 px-4 md:px-8 bg-black text-white mb-[100px]
+      className="w-full min-h-screen py-20 px-4 md:px-8 bg-black text-white mb-[50px]
       "
       style={{
         backgroundImage: `url(${img1})`,

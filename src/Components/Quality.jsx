@@ -152,12 +152,12 @@
 
 import React from 'react';
 import img1 from '../assets/quality.png';
-import img2 from '../assets/phone.png';
+import img2 from '../assets/phone1.png';
 
 const Quality = () => {
   return (
     <div 
-      className="relative w-full min-h-[750px] lg:h-[750px] py-10 sm:py-16 lg:py-20 px-4 overflow-hidden mb-[100px]
+      className="relative w-full min-h-[750px] lg:h-[750px] py-10 sm:py-16 lg:py-10 px-4 overflow-hidden mb-[50px]
       "
       style={{
         backgroundImage: `url(${img1})`,
@@ -194,7 +194,7 @@ const Quality = () => {
           {/* Center Column - Phone moved up with negative margin */}
           <div className="relative w-full flex items-center justify-center order-first lg:order-none mb-8 lg:mb-0 lg:-mt-20">
             <div className="relative w-full max-w-[300px] sm:max-w-[400px] lg:max-w-full mx-auto">
-              <div className="relative h-[300px] sm:h-[400px] lg:h-[800px]
+              <div className="relative h-[300px] sm:h-[400px] lg:h-[950px]
                flex items-center justify-center ">
                 <img 
                   src={img2} 

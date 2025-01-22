@@ -592,9 +592,9 @@ const AIAgent = () => {
               in the dynamic world of App Store Optimization (ASO), we're
               building our very own AI Agent.
             </p>
-            <button className="bg-[#004258] text-white px-6 py-2.5  rounded-[23px] text-[12px] font-medium hover:bg-opacity-90 transition-colors">
+            {/* <button className="bg-[#004258] text-white px-6 py-2.5  rounded-[23px] text-[12px] font-medium hover:bg-opacity-90 transition-colors">
               LEARN MORE
-            </button>
+            </button> */}
           </div>
 
           {/* Cards */}

@@ -4,7 +4,7 @@ import img1 from '../assets/getstart.png'
 
 const GetStarted = () => {
   return (
-    <div className="w-full bg-[#F6F1EC] mb-[100px]">
+    <div className="w-full bg-[#F6F1EC] mb-[50px]">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center">
           {/* Left side - Image Container */}

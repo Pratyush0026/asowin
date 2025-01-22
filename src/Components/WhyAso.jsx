@@ -27,7 +27,9 @@ const WhyASO = () => {
             <p className="text-[#494949]
              text-[14px] font-normal
              leading-relaxed">
-             At ASO, we understand that success in today’s competitive environment requires a blend of innovation, strategy, and reliability. We’re dedicated to helping individuals and businesses thrive by providing top-notch services tailored to your needs. 
+            Your App's key to top charts is here. ASO can help boost discoverability, increase organic installs and conversion rates. 
+
+Our excellent team of over 100+ experts are here to help your App reach the brand recognition you could've only imagined.
             </p>
           </div>
         </div>

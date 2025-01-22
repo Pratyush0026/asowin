@@ -31,7 +31,7 @@ const WhyChooseSection = () => {
   ];
 
   return (
-    <div className="relative w-full min-h-screen mb-[100px]">
+    <div className="relative w-full min-h-screen mb-[50px]">
       {/* Background Image Container */}
       <div 
         className="absolute inset-0 w-full h-full bg-center bg-cover bg-no-repeat"
