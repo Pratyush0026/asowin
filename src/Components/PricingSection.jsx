@@ -138,8 +138,16 @@
 
 import React from 'react';
 import img1 from '../assets/pricing.png'
+import { useNavigate } from 'react-router-dom';
+
+
+ 
+
+
 
 const PricingSection = () => {
+  const navigate = useNavigate(); 
+
   return (
     <div 
       className="w-full py-20 px-4 md:px-8 bg-black text-white mb-[50px]"
@@ -204,7 +212,10 @@ const PricingSection = () => {
                 </div>
 
                 {/* Button at the bottom */}
-                <button className="w-full bg-teal-900 text-white py-3 text-center hover:bg-teal-800 transition-colors mt-auto">
+                <button className="w-full bg-teal-900 text-white py-3 text-center hover:bg-teal-800 transition-colors mt-auto"
+                 onClick={() => navigate('/contact')}
+                
+                >
                   LET'S TALK
                 </button>
               </div>
@@ -250,7 +261,10 @@ const PricingSection = () => {
                 </div>
 
                 {/* Button at the bottom */}
-                <button className="w-full bg-teal-900 text-white py-3 text-center hover:bg-teal-800 transition-colors mt-auto">
+                <button className="w-full bg-teal-900 text-white py-3 text-center hover:bg-teal-800 transition-colors mt-auto"
+                 onClick={() => navigate('/contact')}
+                
+                >
                   LET'S TALK
                 </button>
               </div>
@@ -262,7 +276,7 @@ const PricingSection = () => {
         <div className="mt-16 text-center">
           <p className="text-white">
             Unsure of what's right for you? {' '}
-            <a href="#" className="underline hover:text-white">Contact Us</a>
+            <a href="/contact" className="underline hover:text-white">Contact Us</a>
           </p>
         </div>
       </div>

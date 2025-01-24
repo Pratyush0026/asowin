@@ -10,14 +10,74 @@ const BlogContact = () => {
     message: "",
     form:"blog form",
   });
+
+  // Function to check if the email is a work email
+const isWorkEmail = (email) => {
+  const freeEmailDomains = [
+    "gmail.com",
+    "yahoo.com",
+    "hotmail.com",
+    "outlook.com",
+    "aol.com",
+    "protonmail.com",
+  ];
+  const domain = email.split("@")[1];
+  return domain && !freeEmailDomains.includes(domain);
+};
+
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState({ type: "", message: "" });
+
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   setStatus({ type: "", message: "" });
+
+  //   try {
+  //     const response = await fetch("https://form.appstorys.com/api/add-response/", {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify(formData),
+  //     });
+
+  //     if (response.status !== 201) {
+  //       throw new Error("Failed to submit the form");
+  //     }
+
+  //     setStatus({
+  //       type: "success",
+  //       message: "Thank you! We'll be in touch soon.",
+  //     });
+
+  //     setFormData({ name: "", email: "", companyName: "", appUrl: "", message: "" }); // Clear form
+  //   } catch (error) {
+  //     setStatus({
+  //       type: "error",
+  //       message: "Submission failed. Please try again.",
+  //     });
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setStatus({ type: "", message: "" });
-
+  
+    // Validate email before submitting
+    if (!isWorkEmail(formData.email)) {
+      setStatus({
+        type: "error",
+        message: "Please use a valid work email address.",
+      });
+      setLoading(false);
+      return;
+    }
+  
     try {
       const response = await fetch("https://form.appstorys.com/api/add-response/", {
         method: "POST",
@@ -26,16 +86,16 @@ const BlogContact = () => {
         },
         body: JSON.stringify(formData),
       });
-
+  
       if (response.status !== 201) {
         throw new Error("Failed to submit the form");
       }
-
+  
       setStatus({
         type: "success",
         message: "Thank you! We'll be in touch soon.",
       });
-
+  
       setFormData({ name: "", email: "", companyName: "", appUrl: "", message: "" }); // Clear form
     } catch (error) {
       setStatus({
@@ -46,6 +106,9 @@ const BlogContact = () => {
       setLoading(false);
     }
   };
+  
+
+
 
   return (
     <div

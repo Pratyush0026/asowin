@@ -282,6 +282,14 @@ const Navbar = () => {
         {isMobileMenuOpen && (
           <div className="absolute top-full left-0 right-0 mt-2 bg-white shadow-lg rounded-xl md:hidden">
             <div className="flex flex-col py-4">
+
+            <a
+                href="/"
+                className="px-6 py-2 text-[#111111] hover:text-black"
+              >
+                HOME
+              </a>
+              
               <a
                 href="/services"
                 className="px-6 py-2 text-[#111111] hover:text-black"

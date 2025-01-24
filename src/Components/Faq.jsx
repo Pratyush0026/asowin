@@ -81,9 +81,9 @@ const Faq = () => {
     <div className="w-full max-w-7xl mx-auto px-4 py-16">
       <div className="text-center mb-12">
         <h2 className="text-[52px] font-light mb-6">Frequently Asked Questions</h2>
-        <button className="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition-colors mt-[25px] w-[142px] h-[37px]">
+        {/* <button className="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition-colors mt-[25px] w-[142px] h-[37px]">
           VIEW MORE
-        </button>
+        </button> */}
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-4">
@@ -119,3 +119,5 @@ const Faq = () => {
 };
 
 export default Faq;
+
+

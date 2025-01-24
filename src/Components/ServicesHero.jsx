@@ -59,8 +59,15 @@
 import React from "react";
 import Navbar from "./Navbar";
 import img1 from "../assets/Union1.png";
+import { useNavigate } from 'react-router-dom';
+
+
+ 
+
 
 const ServicesHero = () => {
+  const navigate = useNavigate(); 
+
   return (
     <div className="w-full  bg-white">
       <Navbar />
@@ -99,7 +106,9 @@ const ServicesHero = () => {
               </p>
               
               {/* Button - Made responsive */}
-              <button className="bg-[#FF8712] w-full sm:w-auto min-w-[200px] px-6 py-3 text-white text-base md:text-lg rounded-full hover:bg-[#e66e00] transition-colors">
+              <button className="bg-[#FF8712] w-full sm:w-auto min-w-[200px] px-6 py-3 text-white text-base md:text-lg rounded-full hover:bg-[#e66e00] transition-colors"
+                 onClick={() => navigate('/contact')}
+              >
                 LET'S TALK
               </button>
             </div>

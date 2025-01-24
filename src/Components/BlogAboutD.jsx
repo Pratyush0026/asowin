@@ -1,7 +1,12 @@
 import React from "react";
 import img2 from "../assets/bulb.png";
+import { useNavigate } from 'react-router-dom';
+
+
+ 
 
 const BlogAboutD = () => {
+  const navigate = useNavigate(); 
   return (
     <div className="flex flex-col md:flex-row w-full min-h-screen">
       {/* About Section - 40% */}
@@ -26,9 +31,12 @@ const BlogAboutD = () => {
           <p className="text-[#434343] font-[13px] mb-4">
             Book a call with AppStorys
           </p>
-          <button className="bg-[#FD5F03] text-white px-6 py-2 rounded-full text-sm hover:bg-[#FF6347] transition-colors">
-            BOOK A DEMO
-          </button>
+          <button
+      className="bg-[#FD5F03] text-white px-6 py-2 rounded-full text-sm hover:bg-[#FF6347] transition-colors"
+      onClick={() => navigate('/contact')} // Navigate to the '/contact' page on click
+    >
+      BOOK A DEMO
+    </button>
         </div>
       </div>
 
