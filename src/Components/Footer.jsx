@@ -137,13 +137,13 @@ const Footer = () => {
                 SERVICES
               </a>
               <a
-                href="/our-book"
+                href="https://asowin.com/ASOWinBook.pdf"
                 className="text-white hover:text-[#FFB842] text-sm font-semibold  whitespace-nowrap"
               >
                 OUR BOOK
               </a>
               <a
-                href="/blog"
+                href="https://asowin.com/blog/"
                 className="text-white hover:text-[#FFB842] text-sm font-semibold  whitespace-nowrap"
               >
                 BLOG
@@ -167,23 +167,23 @@ const Footer = () => {
           <div className="absolute bottom-4  sm:bottom-6 md:bottom-8 left-0 right-0 px-4 sm:px-6 md:px-8 lg:px-16">
             <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0 ">
               <p className="text-white/80 text-xs order-3 sm:order-1 text-center sm:text-left ">
-                © '25 ASOWin Inc. All Rights Reserved.
+                © '2025 ASOWin Inc. All Rights Reserved.
               </p>
 
               <div className="flex flex-wrap justify-center sm:justify-start gap-3 sm:gap-4 md:gap-6 order-1 sm:order-2">
                 <a
-                  href="/privacy"
+                  href="https://asowin.com/privacy.html"
                   className="text-white/80 hover:text-white text-xs whitespace-nowrap"
                 >
                   Privacy Policy
                 </a>
                 <a
-                  href="/terms"
+                  href="https://asowin.com/terms.html"
                   className="text-white/80 hover:text-white text-xs whitespace-nowrap"
                 >
                   Terms Of Service
                 </a>
-                <a
+                {/* <a
                   href="/disclaimer"
                   className="text-white/80 hover:text-white text-xs whitespace-nowrap"
                 >
@@ -194,7 +194,7 @@ const Footer = () => {
                   className="text-white/80 hover:text-white text-xs whitespace-nowrap"
                 >
                   Cookies
-                </a>
+                </a> */}
               </div>
 
               <div className="flex flex-col sm:flex-row items-center gap-4 order-2 sm:order-3">

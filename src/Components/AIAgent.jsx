@@ -836,7 +836,7 @@ const AIAgent = () => {
         </div>
 
         {/* Right Section with Description, Button, and Cards */}
-        <div className="lg:w-1/2 space-y-10 flex flex-col gap-y-16">
+        <div className="lg:w-1/2 space-y-10 flex flex-col gap-y-10">
           {/* Paragraph */}
           <div>
             <p className="text-gray-800 text-lg mb-6 leading-relaxed">

@@ -172,16 +172,16 @@ const BlogResults1 = () => {
           <p>Achieved #1 rankings on App Store and Play Store.</p>
 
           <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
-            <span className="text-[#333333]">•</span>
+            {/* <span className="text-[#333333]">•</span> */}
             <span className="min-w-0">
-              Implemented AI-based automated review responses for both platforms, improving user satisfaction.
+                <span className="text-[#333333]">•</span>  Implemented AI-based automated review responses for both platforms, improving user satisfaction.
             </span>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
-            <span className="text-[#333333]">•</span>
+          
             <span className="min-w-0">
-              Increased app store ratings and user engagement through proactive reputation management. Highest rating in its category.
+            <span className="text-[#333333]">•</span>   Increased app store ratings and user engagement through proactive reputation management. Highest rating in its category.
             </span>
           </div>
         </div>

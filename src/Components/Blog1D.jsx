@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const HeroSection = () => {
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-[450px] md:h-screen w-full overflow-hidden">
       <Navbar />
       
       {/* Background Image */}

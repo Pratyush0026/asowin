@@ -59,6 +59,14 @@ const ServicesPage = () => {
       {/* Helmet for dynamic title */}
       <Helmet>
         <title>Services - App Store Optimization - ASOWin</title>
+        <meta
+          name="description"
+          content="Discover ASOWin's expert app optimisation services. We offer impeccable services."
+        />
+        <meta
+          name="keywords"
+          content="aso, app store optimisation, app reputation, creative a/b testing, design, keyword install, aso solution, automated aso, user acquisition, search ad aso, competitor analysis, keyword research. "
+        />
       </Helmet>
 
       {/* Page components */}

@@ -1,7 +1,6 @@
-
-import React from 'react';
-import img1 from '../assets/tick.png';
-import img2 from '../assets/bars.png';
+import React from "react";
+import img1 from "../assets/tick.png";
+import img2 from "../assets/bars.png";
 
 const BlogResults2 = () => {
   return (
@@ -20,37 +19,48 @@ const BlogResults2 = () => {
             RESULTS
           </h2>
         </div>
-        
+
         <div className="space-y-4 text-[#858285] text-[16px] sm:text-[18px]">
-  <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
-    <span className="text-[#333333] whitespace-nowrap">• 50+ Keywords:</span>
-    <span className="min-w-0">
-      Took over 50 keywords from unranked to Top 50 rankings on both stores.
-    </span>
-  </div>
+          <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
+            <span className="text-[#333333] whitespace-nowrap">
+              • 50+ Keywords:
+            </span>
+            <span className="min-w-0">
+              Took over 50 keywords from unranked to Top 50 rankings on both
+              stores.
+            </span>
+          </div>
 
-  <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
-    <span className="text-[#333333] whitespace-nowrap">• Visibility Boost:</span>
-    <span className="min-w-0">
-      Achieved significant visibility for competitive keywords in the Indian market.
-    </span>
-  </div>
+          <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
+            <span className="text-[#333333] whitespace-nowrap">
+              • Visibility Boost:
+            </span>
+            <span className="min-w-0">
+              Achieved significant visibility for competitive keywords in the
+              Indian market.
+            </span>
+          </div>
 
-  <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
-    <span className="text-[#333333] whitespace-nowrap">• Creative Success:</span>
-    <span className="min-w-0">
-      Increased Play Store and App Store conversion rates through optimized screenshots and icons.
-    </span>
-  </div>
+          <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
+            <span className="text-[#333333] whitespace-nowrap">
+              • Creative Success:
+            </span>
+            <span className="min-w-0">
+              Increased Play Store and App Store conversion rates through
+              optimized screenshots and icons.
+            </span>
+          </div>
 
-  <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
-    <span className="text-[#333333] whitespace-nowrap">• Reputation:</span>
-    <span className="min-w-0">
-      Enhanced ratings with consistent review management and user engagement.
-    </span>
-  </div>
-</div>
-
+          <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
+            <span className="text-[#333333] whitespace-nowrap">
+              • Reputation:
+            </span>
+            <span className="min-w-0">
+              Enhanced ratings with consistent review management and user
+              engagement.
+            </span>
+          </div>
+        </div>
       </div>
 
       {/* Key Metrics Section */}
@@ -68,23 +78,23 @@ const BlogResults2 = () => {
           </h2>
         </div>
         <div className="space-y-4 text-[#858285] text-[16px] sm:text-[18px]">
-  <p>• 50+ unranked to Top 50 rankings for targeted keywords.</p>
+          <p>• 50+ unranked to Top 50 rankings for targeted keywords.</p>
 
-  <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
-    <span className="text-[#333333]">•</span>
-    <span className="min-w-0">
-      Increased download conversions with A/B-tested creatives.
-    </span>
-  </div>
+          <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
+          
+            <span className="min-w-0">
+            <span className="text-[#333333]">•</span>   Increased download conversions with A/B-tested creatives.
+            </span>
+          </div>
 
-  <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
-    <span className="text-[#333333]">•</span>
-    <span className="min-w-0">
-      Successfully handled app launch and long-term ASO management for two platforms.
-    </span>
-  </div>
-</div>
-
+          <div className="grid grid-cols-1 sm:grid-cols-[auto,1fr] gap-2 items-start">
+        
+            <span className="min-w-0">
+            <span className="text-[#333333]">•</span>   Successfully handled app launch and long-term ASO management for
+              two platforms.
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   );

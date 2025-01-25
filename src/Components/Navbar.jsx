@@ -360,7 +360,7 @@ const Navbar = () => {
                 href="/about"
                 className="px-6 py-2 text-[#111111] hover:text-black"
               >
-                ABOUT
+                ABOUT 
               </a>
               <a
                 href="/contact"

@@ -95,7 +95,7 @@ const ServicesHero = () => {
             {/* Content */}
             <div className="text-center lg:text-left px-4">
               {/* Heading - Improved responsive sizing */}
-              <h1 className="text-6xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[100px] 2xl:text-[127px] font-bold leading-tight mb-4 md:mb-6">
+              <h1 className="text-6xl sm:text-7xl md:text-6xl lg:text-7xl xl:text-[100px] 2xl:text-[127px] font-bold leading-tight mb-4 md:mb-6">
                 <span className="block">Services</span>
                 <span className="block">We Offer</span>
               </h1>

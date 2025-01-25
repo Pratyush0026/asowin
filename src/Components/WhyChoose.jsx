@@ -54,11 +54,10 @@ const WhyChooseSection = () => {
           {/* Heading */}
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-normal mb-4">
-              Why Choose ASOWin
+              Why Choose ASOWin?
             </h2>
             <p className="text-base md:text-lg max-w-2xl mx-auto text-gray-600">
-              Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-              opposed to using 'Content here, content here', making it look like.
+              We offer advanced AI focused App Optimization solutions to help your App boost core metrics in the most advanced way.
             </p>
           </div>
 
