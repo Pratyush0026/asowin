@@ -14,7 +14,6 @@ const ContactUs = () => {
     company: null
   });
 
-  // Function to check if the email is a work email
 const isWorkEmail = (email) => {
   const freeEmailDomains = [
     "gmail.com",
@@ -73,67 +72,7 @@ const isWorkEmail = (email) => {
     }
   };
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   setLoading(true);
-  //   setStatus({ type: "", message: "" });
-
-  //   const submitData = {
-  //     name: formData.name,
-  //     email: formData.email,
-  //     mobile: additionalFields.phone ? `${additionalFields.countryCode}${additionalFields.phone}` : null,
-  //     message: formData.message,
-  //     form: "New Form",
-  //     app: additionalFields.website || null,
-  //     company: null
-  //   };
-
-  //   try {
-  //     const response = await fetch('https://form.appstorys.com/api/add-response/', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //       },
-  //       body: JSON.stringify(submitData)
-  //     });
-
-  //     if (response.status !== 201) {
-  //       throw new Error('Failed to submit form');
-  //     }
-
-  //     setStatus({
-  //       type: "success",
-  //       message: "Thank you for contacting us! We'll get back to you soon."
-  //     });
-      
-  //     // Reset all form fields
-  //     setFormData({
-  //       name: "",
-  //       email: "",
-  //       mobile: null,
-  //       message: "",
-  //       form: "New Form",
-  //       app: null,
-  //       company: null
-  //     });
-      
-  //     setAdditionalFields({
-  //       phone: "",
-  //       countryCode: "+1",
-  //       website: ""
-  //     });
-
-  //   } catch (error) {
-  //     setStatus({
-  //       type: "error",
-  //       message: "There was an error submitting the form. Please try again."
-  //     });
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // };
-
-
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -178,7 +117,6 @@ const isWorkEmail = (email) => {
         message: "Thank you for contacting us! We'll get back to you soon."
       });
       
-      // Reset all form fields
       setFormData({
         name: "",
         email: "",
@@ -207,12 +145,11 @@ const isWorkEmail = (email) => {
   
 
 
-  // Rest of the component remains the same...
   return (
     <>
       <Navbar />
       <div
-        className="w-full min-h-screen relative mb-[100px]"
+        className="w-full min-h-screen relative "
         id="form-section"
         style={{
           backgroundImage: `url(${img1})`,
@@ -265,7 +202,7 @@ const isWorkEmail = (email) => {
                       </svg>
                       <p className="text-base text-gray-600">
                         <span className="font-bold">Mumbai:</span> Office #3,
-                        Neelkanth, Next to Shreeji Heights, Sector 45A, Navi
+                        Neelkanth, Next to Shreeji Heights, Sector 46A, Navi
                         Mumbai, Maharashtra, India - 400706
                       </p>
                     </div>
@@ -413,7 +350,7 @@ const isWorkEmail = (email) => {
                     required
                   />
                 </div>
-
+{/* 
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
                     PHONE NUMBER*
@@ -442,8 +379,8 @@ const isWorkEmail = (email) => {
                       required
                     />
                   </div>
-                </div>
-
+                </div> */}
+{/* 
                 <div>
                   <label htmlFor="website" className="block text-sm font-medium text-gray-700 mb-2">
                     WEBSITE URL*
@@ -458,7 +395,7 @@ const isWorkEmail = (email) => {
                     className="w-full px-4 py-3 border border-gray-200 rounded focus:ring-1 focus:ring-gray-300 focus:border-gray-300"
                     required
                   />
-                </div>
+                </div> */}
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">

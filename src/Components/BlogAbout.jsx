@@ -25,13 +25,17 @@ const BlogAbout = () => {
           <h4 className="text-xl md:text-2xl font-bold mb-1">
             Want to achieve similar results?
           </h4>
-          <p className="text-[#434343] font-[13px] mb-4">Book a call with AppStorys</p>
+          <p className="text-[#434343] font-[13px] mb-4">Book a call with ASOWin</p>
           <button
-      className="bg-[#FD5F03] text-white px-6 py-2 rounded-full text-sm hover:bg-[#FF6347] transition-colors"
-      onClick={() => navigate('/contact')} 
-    >
-      BOOK A DEMO
-    </button>
+  className="bg-[#FD5F03] text-white px-6 py-2 rounded-full text-sm hover:bg-[#FF6347] transition-colors"
+  onClick={() => {
+    navigate('/contact'); 
+    window.scrollTo(0, 0); 
+  }}
+>
+  BOOK A DEMO
+</button>
+
         </div>
       </div>
 
@@ -56,7 +60,7 @@ const BlogAbout = () => {
 
           <div>
             <h3 className="text-xl text-[#333333] font-semibold mb-4">2. Reputation Management:</h3>
-            <ul className="list-disc ml-6 space-y-3text-[18px] font-medium text-[#858285]">
+            <ul className="list-disc ml-6 space-y-3 text-[18px] font-medium text-[#858285]">
               <li>Managed app reviews and ratings on both stores.</li>
               <li>Implemented AI-driven automated responses to reviews, ensuring timely and relevant feedback to users.</li>
             </ul>

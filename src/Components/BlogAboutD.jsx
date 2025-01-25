@@ -29,14 +29,17 @@ const BlogAboutD = () => {
             Want to achieve similar results?
           </h4>
           <p className="text-[#434343] font-[13px] mb-4">
-            Book a call with AppStorys
+            Book a call with ASOWin
           </p>
           <button
-      className="bg-[#FD5F03] text-white px-6 py-2 rounded-full text-sm hover:bg-[#FF6347] transition-colors"
-      onClick={() => navigate('/contact')} // Navigate to the '/contact' page on click
-    >
-      BOOK A DEMO
-    </button>
+  className="bg-[#FD5F03] text-white px-6 py-2 rounded-full text-sm hover:bg-[#FF6347] transition-colors"
+  onClick={() => {
+    navigate('/contact'); 
+    window.scrollTo(0, 0); 
+  }}
+>
+  BOOK A DEMO
+</button>
         </div>
       </div>
 

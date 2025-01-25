@@ -212,12 +212,16 @@ const PricingSection = () => {
                 </div>
 
                 {/* Button at the bottom */}
-                <button className="w-full bg-teal-900 text-white py-3 text-center hover:bg-teal-800 transition-colors mt-auto"
-                 onClick={() => navigate('/contact')}
-                
-                >
-                  LET'S TALK
-                </button>
+                <button
+  className="w-full bg-teal-900 text-white py-3 text-center hover:bg-teal-800 transition-colors mt-auto"
+  onClick={() => {
+    navigate('/contact'); 
+    window.scrollTo(0, 0);
+  }}
+>
+  LET'S TALK
+</button>
+
               </div>
             </div>
 
@@ -261,12 +265,16 @@ const PricingSection = () => {
                 </div>
 
                 {/* Button at the bottom */}
-                <button className="w-full bg-teal-900 text-white py-3 text-center hover:bg-teal-800 transition-colors mt-auto"
-                 onClick={() => navigate('/contact')}
-                
-                >
-                  LET'S TALK
-                </button>
+                <button
+  className="w-full bg-teal-900 text-white py-3 text-center hover:bg-teal-800 transition-colors mt-auto"
+  onClick={() => {
+    navigate('/contact'); 
+    window.scrollTo(0, 0); 
+  }}
+>
+  LET'S TALK
+</button>
+
               </div>
             </div>
           </div>

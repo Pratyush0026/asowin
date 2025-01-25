@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from "../assets/getstart.png";
-import { useNavigate } from 'react-router-dom'; // Make sure to import useNavigate
+import { useNavigate } from "react-router-dom"; // Make sure to import useNavigate
 
 const GetStarted = () => {
   const navigate = useNavigate(); // Initialize the navigate function
@@ -35,7 +35,10 @@ const GetStarted = () => {
             </p>
             <button
               className="bg-[#FF8712] w-[172px] h-[37px] text-white px-8 py-1 rounded-full hover:bg-[#e66e00] transition-colors"
-              onClick={() => navigate('/contact')} // Correct usage of navigate function
+              onClick={() => {
+                navigate("/contact"); 
+                window.scrollTo(0, 0);
+              }}
             >
               LET'S TALK
             </button>
