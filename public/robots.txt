@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://asowin.com/sitemap.xml
